@@ -1,0 +1,38 @@
+{
+  "name": "bootstrap-4-stylus",
+  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web. On stylus!",
+  "version": "0.0.1",
+  "keywords": [
+    "css",
+    "stylus",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "scripts": {
+    "start": "./node_modules/.bin/gulp start",
+    "build": "./node_modules/.bin/gulp build"
+  },
+  "author": "Ney Simões (https://github.com/neysimoes)",
+  "stylus": "stylus/bootstrap.styl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neysimoes/bootstrap-4-stylus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neysimoes/bootstrap-4-stylus/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "css-mqpacker": "^6.0.1",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-stylus": "^2.6.0",
+    "postcss-pxtorem": "^4.0.1",
+    "rupture": "^0.6.2"
+  }
+}

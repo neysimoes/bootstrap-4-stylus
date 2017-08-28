@@ -1,0 +1,42 @@
+hover
+  &:hover
+    {block}
+
+hover-focus
+  if $enable-hover-media-query
+    &:focus
+      {block}
+    hover()
+      {block}
+  else
+    &:focus,
+    &:hover
+      {block}
+
+plain-hover-focus
+  if $enable-hover-media-query
+    &,
+    &:focus
+      {block}
+
+    hover()
+      {block}
+  else
+    &,
+    &:focus,
+    &:hover
+      {block}
+
+hover-focus-active
+  if $enable-hover-media-query
+    &:focus,
+    &:active
+      {block}
+
+    hover()
+      {block}
+  else
+    &:focus,
+    &:active,
+    &:hover
+      {block}
